@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Redirect, Route, Switch } from "react-router";
+import Music from "./components/Music";
+import Members from "./components/Members";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>深谷の嫁候補リスト</p>
       </header>
+      {/* グループのクラス */}
+      <div>乃木坂46</div>
+      <div>欅坂46</div>
+      <div>ひらがなけやき</div>
+      {/* 紹介コンテンツのクラス */}
+      <div>メンバー紹介</div>
+      <div>楽曲紹介</div>
+      {/* 表示される内容 */}
+      <Switch>
+        <Route path="/:group/music" component={Music} />
+        <Route path="/:group/members" component={Members} />
+        <Route path="/" component={Home} />
+        <Redirect to="/" />
+      </Switch>
     </div>
   );
 }
