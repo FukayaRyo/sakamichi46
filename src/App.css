@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #2a033a;
+  color: white;
 }
 
 .App-logo {
@@ -14,13 +16,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2a033a;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: white;
 }
 
@@ -35,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .container {
+  background-color: rgb(144, 238, 144);
+} */
+
+.liStyle {
+  width: "300px";
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
