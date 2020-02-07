@@ -1,0 +1,338 @@
+const keyakizaka46 = [
+  {
+    name: "石森虹花",
+    urlName: "ishimorinijika",
+    birthday: "1997-5-7",
+    bloodType: "A",
+    constellation: "おうし座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/26e/39b9ffc42a1ecc656e6c477607828/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=01",
+    tvUri: "https://talent.thetv.jp/person/2000006919/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/356",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_161671.html"
+    ]
+  },
+  {
+    name: "今泉佑唯",
+    urlName: "imaizumiyui",
+    birthday: "1998-9-30",
+    bloodType: "O",
+    constellation: "てんびん座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/0cc/b96bd60c3ee8b9d2670aae2604879/400_320_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=02",
+    tvUri: "https://talent.thetv.jp/person/2000006920/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/357",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_150769.html"
+    ]
+  },
+  {
+    name: "上村莉菜",
+    urlName: "uemurarina",
+    birthday: "1997-1-4",
+    bloodType: "O",
+    constellation: "やぎ座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/a9d/0d485762acd3a0539a68b3589bc62/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=03",
+    tvUri: "https://talent.thetv.jp/person/2000006921/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/358",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_154621.html"
+    ]
+  },
+  {
+    name: "尾関梨香",
+    urlName: "ozekirika",
+    birthday: "1997-10-7",
+    bloodType: "O",
+    constellation: "てんびん座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/a8d/a802434b4947eb33419d6c63ba5fd/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=04",
+    tvUri: "https://talent.thetv.jp/person/2000006922/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/359",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_150656.html"
+    ]
+  },
+  {
+    name: "織田奈那",
+    urlName: "odanana",
+    birthday: "1998-6-4",
+    bloodType: "O",
+    constellation: "ふたご座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/f1d/d162aab87bd05bc0a8d3385f417e1/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=05",
+    tvUri: "https://talent.thetv.jp/person/2000006923/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/360",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_166153.html"
+    ]
+  },
+  {
+    name: "小池美波",
+    urlName: "koikeminami",
+    birthday: "1998-11-14",
+    bloodType: "B",
+    constellation: "さそり座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/c81/0445587c63a2bf5a4990160097268/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=06",
+    tvUri: "https://talent.thetv.jp/person/2000006924/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/361",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_160291.html"
+    ]
+  },
+  {
+    name: "小林由依",
+    urlName: "kobayashiyui",
+    birthday: "1999-10-23",
+    bloodType: "A",
+    constellation: "てんびん座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/197/25a8f3cdbf418da77fe56fd7d6c34/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=07",
+    tvUri: "https://talent.thetv.jp/person/2000006925/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/362",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_155602.html"
+    ]
+  },
+  {
+    name: "齋藤冬優花",
+    urlName: "saitofuyuka",
+    birthday: "1998-2-15",
+    bloodType: "O",
+    constellation: "みずがめ座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/c7e/72bf7dc34e76d9e30985bb38731db/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=08",
+    tvUri: "https://talent.thetv.jp/person/2000006926/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/363",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_164265.html"
+    ]
+  },
+  {
+    name: "佐藤詩織",
+    urlName: "satoshiori",
+    birthday: "1996-11-16",
+    bloodType: "A",
+    constellation: "さそり座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/115/6f594688966963f82add268297c81/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=09",
+    tvUri: "https://talent.thetv.jp/person/2000006927/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/364",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_170587.html"
+    ]
+  },
+  {
+    name: "志田愛佳",
+    urlName: "shidamanaka",
+    birthday: "1998-11-23",
+    bloodType: "A",
+    constellation: "いて座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/e8c/7a28300a25cd82d89d04a7dceaeeb/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=10",
+    tvUri: "https://talent.thetv.jp/person/2000006928/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/365",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_158172.html"
+    ]
+  },
+  {
+    name: "菅井友香",
+    urlName: "sugaiyuuka",
+    birthday: "1995-11-29",
+    bloodType: "AB",
+    constellation: "いて座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/42a/a9553c623962db108f7e7cc2f4721/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=11",
+    tvUri: "https://talent.thetv.jp/person/2000006929/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/366",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_153463.html"
+    ]
+  },
+  {
+    name: "鈴本美愉",
+    urlName: "suzumotomiyu",
+    birthday: "1997-12-5",
+    bloodType: "AB",
+    constellation: "いて座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/cdc/0a02329cd49f139de37bb1205e490/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=12",
+    tvUri: "https://talent.thetv.jp/person/2000006930/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/367",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_159683.html"
+    ]
+  },
+  {
+    name: "長沢菜々香",
+    urlName: "nagasawananako",
+    birthday: "1997-4-23",
+    bloodType: "A",
+    constellation: "おうし座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/c06/548643aa595d25a008750306bb43c/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=13",
+    tvUri: "https://talent.thetv.jp/person/2000006931/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/368",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_153676.html"
+    ]
+  },
+  {
+    name: "長濱ねる",
+    urlName: "nagahamaneru",
+    birthday: "1998-9-4",
+    bloodType: "O",
+    constellation: "おとめ座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/fdc/25172f34968d99eeb6ec4443064bb/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&ima=0938&cd=member&ct=22",
+    tvUri: "https://talent.thetv.jp/person/2000010077/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/376",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_154643.html"
+    ]
+  },
+  {
+    name: "土生瑞穂",
+    urlName: "habumizuho",
+    birthday: "1997-7-7",
+    bloodType: "A",
+    constellation: "かに座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/657/2aaedddca325df7ded0872c2fe247/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=14",
+    tvUri: "https://talent.thetv.jp/person/2000006932/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/369",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_156632.html"
+    ]
+  },
+  {
+    name: "原田葵",
+    urlName: "haradaaoi",
+    birthday: "2000-5-7",
+    bloodType: "AB",
+    constellation: "おうし座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/0bd/96088fc26a70a62b85cc5e467532c/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=15",
+    tvUri: "https://talent.thetv.jp/person/2000006933/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/370",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_165230.html"
+    ]
+  },
+  {
+    name: "平手友梨奈",
+    urlName: "hirateyurina",
+    birthday: "2001-6-25",
+    bloodType: "O",
+    constellation: "かに座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/843/85e8a42e604ca5dcf3afec6fdf799/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=17",
+    tvUri: "https://talent.thetv.jp/person/2000006935/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/371",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_153501.html"
+    ]
+  },
+  {
+    name: "守屋茜",
+    urlName: "moriyaakane",
+    birthday: "1997-11-12",
+    bloodType: "A",
+    constellation: "さそり座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/101/c7a33d62827944ca4072b53b971c9/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=18",
+    tvUri: "https://talent.thetv.jp/person/2000006936/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/372",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_161642.html"
+    ]
+  },
+  {
+    name: "米谷奈々未",
+    urlName: "yonetaninanami",
+    birthday: "2000-2-24",
+    bloodType: "B",
+    constellation: "うお座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/0d2/67667c2ddfd59fe852ce71ba5178f/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=19",
+    tvUri: "https://talent.thetv.jp/person/2000006937/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/373",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_168485.html"
+    ]
+  },
+  {
+    name: "渡辺梨加",
+    urlName: "watanaberika",
+    birthday: "1995-5-16",
+    bloodType: "O",
+    constellation: "おうし座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/7d2/58985540c5054bdfaec04ff2b1e6b/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=20",
+    tvUri: "https://talent.thetv.jp/person/2000006938/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/374",
+    matomeUri: [
+      "http://www.keyakizaka46matomerabo.com/archives/cat_153462.html"
+    ]
+  },
+  {
+    name: "渡邉理佐",
+    urlName: "watanaberisa",
+    birthday: "1998-7-27",
+    bloodType: "O",
+    constellation: "しし座",
+    profilePhotoUri:
+      "http://cdn.keyakizaka46.com/images/14/f3b/f9eda8b240edcbf56e6ab5dcac83e/400_720_102400.jpg",
+    blogUri:
+      "http://www.keyakizaka46.com/mob/news/diarKiji.php?site=k46o&cd=member&ct=21",
+    tvUri: "https://talent.thetv.jp/person/2000006939/program/",
+    goodsUri: "https://official-goods-store.jp/keyakizaka46/product/detail/375",
+    matomeUri: "http://www.keyakizaka46matomerabo.com/archives/cat_155601.html"
+  }
+];
+
+export default keyakizaka46;
