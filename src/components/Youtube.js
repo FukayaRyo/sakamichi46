@@ -1,5 +1,4 @@
 import React from "react";
-import { Embed } from "semantic-ui-react";
 
 const Youtube = ({ YoutubeUrl, index }) => {
   return (

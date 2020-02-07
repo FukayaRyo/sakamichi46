@@ -31,8 +31,6 @@ const Music = ({ match }) => {
   //   );
   // }, [albums]);
 
-  console.log(targetGroup);
-
   const targetGroupMusic = () => {
     switch (targetGroup) {
       case "nogizaka46":
@@ -47,8 +45,6 @@ const Music = ({ match }) => {
   useEffect(() => {
     targetGroupMusic();
   }, [targetGroup]);
-
-  console.log("albums", albums);
 
   const albumList = useMemo(() => {
     return albums.map((album, index) => {

@@ -5,9 +5,8 @@ import "./Members.css";
 const Members = ({ profile, index }) => {
   const srcImg = profile.profilePhotoUri;
   // return <div key={index}>{profile.name}</div>;
-
   return (
-    <Card color="violet" key={index}>
+    <Card color="" key={index}>
       <Image
         src={srcImg}
         size="midium"

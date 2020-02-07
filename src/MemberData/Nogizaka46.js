@@ -1,9 +1,10 @@
 const Nogizaka = [
   {
     id: 0,
-    UrlName: "akimotomanatsu",
+
+    UrlName: "akimotomanatasu",
     profilePhotoUri:
-      "http: //img.nogizaka46.com/www/member/img/akimotomanatsu_prof.jpg"
+      "http://img.nogizaka46.com/www/member/img/akimotomanatsu_prof.jpg"
   },
   {
     id: 1,

@@ -6,9 +6,9 @@ import Music from "./components/Music";
 import Home from "./components/Home";
 import MemberInformation from "./components/MemberInformation";
 import { Link } from "react-router-dom";
-import { Menu, Segment, Button } from "semantic-ui-react";
+import { Menu, Button } from "semantic-ui-react";
 
-function App({ match }) {
+function App({}) {
   const Groups = () => {
     const [groups, setGroups] = useState("keyakizaka46");
     const sakamichi46 = [
@@ -17,12 +17,12 @@ function App({ match }) {
         code: "nogizaka46"
       },
       {
-        name: "欅坂46",
+        name: "欅坂46　",
         code: "keyakizaka46"
       },
       {
-        name: "ひらがなけやき",
-        code: "hiraganakeyaki"
+        name: "日向坂46",
+        code: "hinatazaka"
       }
     ];
 
@@ -59,7 +59,7 @@ function App({ match }) {
   return (
     <div className="App">
       <header className="App-header">
-        <p>~~坂道46~~</p>
+        <p>⊿坂道46</p>
       </header>
       <div className="container">
         <Groups />
