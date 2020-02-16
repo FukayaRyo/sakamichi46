@@ -67,11 +67,11 @@ function App({}) {
           <Route path={"/:group/music"} component={Music} />
           <Route path={"/:group/members"} component={Home} />
           <Route
-            path={"/:group/member/:memberName"}
+            path={"/:group/member/:memberyyName"}
             component={MemberInformation}
           />
           <Route path={"/:group"} component={Home} />
-          <Redirect to="/keyakizaka46" />
+          <Redirect to="/nogizaka46" />
         </Switch>
       </div>
     </div>

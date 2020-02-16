@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
 import Members from "./Members";
-import Nogizaka from "../MemberData/Nogizaka46";
-import Keyakizaka from "../MemberData/Keyakizaka";
-import Hiraganakeyaki from "../MemberData/Hiraganakeyaki";
+// import Nogizaka from "../MemberData/Nogizaka46";
+// import Keyakizaka from "../MemberData/Keyakizaka";
+// import Hiraganakeyaki from "../MemberData/Hiraganakeyaki";
 import { Card, Header } from "semantic-ui-react";
 import nogizaka46 from "../resource/nogizaka46";
 import keyakizaka46 from "../resource/keyakizaka46";
@@ -15,12 +15,12 @@ const Home = ({ match }) => {
   const [profiles, setProfiles] = useState([]);
   const getMembers = () => {
     switch (targetGroup) {
-      case "nogizaka46":
-        return setProfiles(nogizaka46);
+      case "keyakizaka46":
+        return setProfiles(keyakizaka46);
       case "hinatazaka":
         return setProfiles(hinatazaka);
       default:
-        return setProfiles(keyakizaka46);
+        return setProfiles(nogizaka46);
     }
   };
 
@@ -41,13 +41,13 @@ const Home = ({ match }) => {
     return profiles.map((profile, index) => {
       // const id = index;
       // const targetMember = (() => {
-      // switch (targetGroup) {
-      //   case "nogizaka46":
-      //     return Nogizaka.find(v => v.id === id);
-      //   case "hiraganakeyaki":
-      //     return Hiraganakeyaki.find(v => v.id === id);
-      //   default:
-      //     return Keyakizaka.find(v => v.id === id);
+      //   switch (targetGroup) {
+      //     case "nogizaka46":
+      //       return Nogizaka.find(v => v.id === id);
+      //     case "hiraganakeyaki":
+      //       return Hiraganakeyaki.find(v => v.id === id);
+      //     default:
+      //       return Keyakizaka.find(v => v.id === id);
       //   }
       // })();
 
